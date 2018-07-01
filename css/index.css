@@ -1,5 +1,7 @@
 /*主页样式*/
 
+
+/*banner*/
 .banner {
 	position: relative;
 	width: 100%;
@@ -59,19 +61,173 @@
 	left: 60px;
 }
 
+.banner .ban_tab {
+	position: absolute;
+	bottom: 14px;
+	left: 50%;
+}
+
+.banner .ban_tab ul li{
+	width: 8px;
+	height: 8px;
+	float: left;
+	border: 2px solid #9bb335;
+	border-radius: 50%;
+	margin-right: 10px; 
+	background-color: #006597;
+	opacity: 0.8;
+}
+
+.banner .ban_tab ul li.current {
+	background-color: #9bb335;
+}
 
 
+/*Classic cases*/
+
+.cases {
+	width: 100%;
+	height: 790px;
+	background: url(../images/index/bg.png) center center;
+	position: relative;
+}
+
+.cases .heading, .parter .heading {
+	max-width: 512px;
+	width: 100%;
+	height: 90px;
+	background: url(../images/index/line.png) no-repeat center bottom;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+.cases .heading img ,.parter .heading img {
+	display: block;
+	margin: 0 auto;
+}
+
+.cases .heading p ,.parter .heading p {
+	margin-top: 22px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.cases .cases_con {
+	overflow: hidden;
+	position: relative;
+	width: 85%;
+	height: 475px;
+	margin: 80px auto 0;
+
+}
+
+.cases .cases_con ul {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 500%;
+	height: 100%;
+	margin-left: -960px;
+	opacity: 1;
+}
+
+.cases .cases_con ul li {
+	
+	float: left;
+	position: relative;
+	top: 50%;
+	width: 192px;
+	height: 317px;
+	transform: translate(0,-50%);
+	transition: width .3s,height .3s;
+
+}
+
+.cases .cases_con ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+.cases .cases_con ul li.side {
+	width: 240px;
+	height: 396px;
+}
+
+.cases .cases_con ul li.middle {
+	width: 288px;
+	height: 475px;
+}
+
+.cases .case_btn div{
+	position: absolute;
+	top: 50%;
+	width: 48px;
+	height: 48px;
+	transform: translate(0,-50%);
+	cursor: pointer;
+}
+
+.cases .case_btn div.left {
+	left: 45px;
+}
+
+.cases .case_btn div.right {
+	right: 45px;
+}
+
+.cases .case_tab {
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	transform: translate(-50%,0);
+}
+
+.cases .case_tab ul li {
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	background: url(../images/index/c_dot1.png) no-repeat center center;
+}
+
+.cases .case_tab ul li.get {
+	background: url(../images/index/c_dot_s.png) no-repeat center center;
+}
 
 
+/*partner*/
 
+.parter .part_con {
+	margin: 100px auto 0;
+}
 
+.parter .part_con ul {
+	width: 900px;
+	height: 52px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
 
+/*footer*/
 
+footer {
+	margin-top: 120px;
+}
+.fo_bor {
+	width: 100%;
+	border-top: 2px solid #CCC;
 
+}
 
+.fo_p {
+	font-size: 16px;
+	color: #ccc;
+	display: flex;
+	justify-content: space-around;
+}
 
-
-
-
-
-
+.fo_p p {
+	height: 80px;
+	line-height: 80px;
+}
