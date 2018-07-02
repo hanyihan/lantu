@@ -209,25 +209,4 @@
 	justify-content: space-around;
 }
 
-/*footer*/
 
-footer {
-	margin-top: 120px;
-}
-.fo_bor {
-	width: 100%;
-	border-top: 2px solid #CCC;
-
-}
-
-.fo_p {
-	font-size: 16px;
-	color: #ccc;
-	display: flex;
-	justify-content: space-around;
-}
-
-.fo_p p {
-	height: 80px;
-	line-height: 80px;
-}

@@ -4,29 +4,103 @@
 	width: 100%;
 	height: 650px;
 	margin-top: 80px;
+	background: url(../images/contact/bg.jpg) no-repeat center bottom/cover;
 }
 
 
+.top_heading {
+	max-width: 514px;
+	width: 50%;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../images/index/line.png) no-repeat bottom center;
+	padding: 30px 0;
+	line-height: 40px;
+	font-size: 20px;
+}
 
+.top_heading img {
+	width: 50%;
+}
 
+.con_wx {
+	
+	width: 100%;
+	margin: 4% auto 2%;
+	text-align: center;
+}
 
+.con_wx img {
+	width: 150px;
+	margin: 0 auto;
+}
 
+.con_wx p {
+	color: #fff;
+	font-size: 16px;
+	margin-top: 14px;
+}
 
+.contact_us ul {
+	width: 805px;
+	margin: 2% auto;
+	display: flex;
+	justify-content: space-around;
+}
 
+.contact_us ul li {
+	width: 200px;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 16px;
+}
 
+.contact_us ul li div {
+	width: 70px;
+	margin: 0 auto;
+}
 
+.contact_us ul li span {
+	display: block;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 20px;
 
+}
 
+.ways {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
 
+.way_con {
+	width: 1100px;
+	margin: 0 auto;
+}
 
+.way_con ul li {
+	margin: 40px 0;
+	height: 74px;
+	line-height: 74px;
+	font-size: 21px;
+}
 
+.way_con ul li div {
+	float: left;
+	margin-right: 24px;
+	
+}
 
+.way_map {
+	position: absolute;
+	top: -20%;
+	right: -10%;
+	z-index: -1;
+	width: 90%;
+}
 
-
-
-
-
-
-
-
-
+.way_map img {
+	width: 100%;
+}
