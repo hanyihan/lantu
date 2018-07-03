@@ -1,0 +1,441 @@
+.content {
+	margin-top: 71px;
+}
+
+.content .part1 {
+	position: relative;
+	/*background: url(../images/campus/bg1.jpg) center center/cover;*/
+	color: #fff;
+}
+
+.part1 .title {
+	width: 280px;
+	height: 120px;
+	padding: 15% 0 0 25%;
+}
+
+.part1 .title .p1 {
+	font-size: 40px;
+}
+
+.part1 .title .p2 {
+	float: right;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.part .bottom {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100px;;
+	background: rgba(255,255,255,.5);
+	line-height: 100px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.part .btn {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 46px;
+	height: 46px;
+	background: url(../images/campus/a_d.png);
+	margin-left: -23px;
+	margin-top: -23px;
+	cursor: pointer;
+}
+
+.content .bg {
+	width: 100%;
+	height: 430px;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.content .bg1 {
+	background-image: url(../images/campus/bg2.jpg);
+}
+
+.content .part2 {
+	position: relative;
+	width: 100%;
+	height: 530px;
+	background: #f0f2f5;
+}
+
+.part2 .wrap {
+	position: relative;
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.part2 .wrap .left {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 300px;
+	height: 150px;
+	margin-top: -75px;
+	color: #0080ba;
+}
+
+.part2 .wrap .left .p1 {
+	font-size: 40px;
+}
+
+.part2 .wrap .left .p2 , .part2 .wrap .left .p3{
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.part2 .wrap .right {
+	position: absolute;
+	right: 0;
+	overflow: hidden;
+	width: 530px;
+	height: 100%;
+
+}
+
+.part2 .wrap .right p {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: rotate(0deg) translate(0,-50%);
+}
+
+.part2 .wrap .right p img {
+	display: block;
+}
+
+.part2 .wrap .right .p2 {
+	right: 32px;
+	transform-origin: top center;
+	animation: round 20s linear infinite;
+}
+
+@keyframes round {
+	from{transform: rotate(0deg) translate(0,-50%)}
+	to{transform: rotate(360deg) translate(0,-50%)}
+}
+
+.part2 .btn {
+	top: auto;
+	bottom: -23px;
+}
+
+.content .bg2 {
+	background-image: url(../images/campus/bg3.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
