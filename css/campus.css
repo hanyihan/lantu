@@ -4,7 +4,7 @@
 
 .content .part1 {
 	position: relative;
-	/*background: url(../images/campus/bg1.jpg) center center/cover;*/
+	background: url(../images/campus/bg1.jpg) center center/cover;
 	color: #fff;
 }
 
@@ -67,7 +67,7 @@
 	background: #f0f2f5;
 }
 
-.part2 .wrap {
+.part2 .wrap, .part3 .wrap ,.part4 .wrap,.part5 .wrap,.part6 .wrap {
 	position: relative;
 	width: 1000px;
 	height: 100%;
@@ -134,34 +134,128 @@
 	background-image: url(../images/campus/bg3.jpg);
 }
 
+.content .part3,.content .part4,.content .part5,.content .part6 {
+	position: relative;
+	width: 100%;
+	height: 530px;
+	background: #f0f2f5;
+}
 
+.part3 .wrap .first {
+	float: right;
+	width: 240px;
+	height: 120px;
+	color: #0080ba;
+	font-size: 18px;
+	margin-top: 205px;
+}
 
+.part3 .wrap .first .p1 {
+	font-size: 40px;
+}
 
+.part3 .wrap .first .p2,.part3 .wrap .first .p3 {
+	line-height: 26px;
+}
 
+.part3 .wrap .second {
+	float: left;
+	position: relative;
+	width: 324px;
+	height: 324px;
+	margin-top: 103px;
+}
 
+.part3 .wrap .second ul li {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/campus/m5.png);
+	background-size: 100% auto;
+}
 
+.part3 .wrap .second ul li.li {
+	display: block;
+	background-position: 0 0;
+}
 
+.part3 .wrap .second ul li.l2 {
+	background-position: 0 -100%;
+}
 
+.part3 .wrap .second ul li.l3 {
+	background-position: 0 -200%;
+}
 
+.part3 .wrap .second ul li.l4 {
+	background-position: 0 -300%;
+}
 
+.part3 .wrap .second ul li.l5 {
+	background-position: 0 -400%;
+}
 
+.part3 .wrap .second ul li.l6 {
+	background-position: 0 -500%;
+}
 
+.part3 .wrap .second ul li.l7 {
+	background-position: 0 -600%;
+}
 
+.part3 .wrap .second ul li.l8 {
+	background-position: 0 -700%;
+}
 
+.part3 .wrap .second ul li.l9 {
+	background-position: 0 -800%;
+}
 
+.part3 .wrap .three {
+	float: left;
+	width: 160px;
+	height: 333px;
+	margin: 98.5px 0 0 100px;
+}
 
+.part3 .wrap .three ul li {
+	list-style: disc;
+	color: #b6d230;
+	font-size: 24px;
+	line-height: 35px;
+	cursor: pointer;
+}
 
+.part3 .wrap .three ul li span {
+	color: #0080ba;
+	font-size: 20px;
+	transition: .2s linear;
+}
 
+.part3 .wrap .three ul li.active span {
+	font-size: 28px;
+}
 
+.part3 .btn,.part4 .btn,.part5 .btn {
+	top: auto;
+	bottom: -23px;
+}
 
+.content .bg3 {
+	background-image: url(../images/campus/bg4.jpg);
+}
 
-
-
-
-
-
-
-
+.part4 .wrap .first {
+	float: left;
+	width: 290px;
+	height: 130px;
+	margin-top: 200px;
+	color: #0080ba;
+	font-size: 18px;
+}
 
 
 
