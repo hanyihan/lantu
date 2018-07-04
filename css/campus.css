@@ -127,6 +127,7 @@
 .part2 .btn {
 	top: auto;
 	bottom: -23px;
+	transform: rotate(0deg);
 }
 
 .content .bg2 {
