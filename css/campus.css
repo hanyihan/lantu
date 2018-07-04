@@ -257,59 +257,152 @@
 	font-size: 18px;
 }
 
+.part4 .wrap .first .p1 {
+	font-size: 40px;
+}
+
+.part4 .wrap .first .p2,.part4 .wrap .first .p3 {
+	line-height: 26px;
+}
 
 
+.part4 .wrap .second {
+	position: relative;
+	float: right;
+	width: 530px;
+	height: 430px;
+	margin-top: 50px;
+}
+
+.part4 .wrap .second .p1 {
+	width: 100%;
+	height: 100%;
+}
+
+.part4 .wrap .second .p1 img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.part4 .wrap .second .p2 {
+	position: absolute;
+	top: 106px;
+	left: 214px;
+	width: 157px;
+	height: 163px;
+}
+
+.part4 .wrap .second .p2 img {
+	display: block;
+	width: 100%;
+	height: auto;
+	animation: watch 60s linear infinite;
+}
+
+@keyframes watch {
+	from { transform: rotate(0deg);transform-origin: 26% 67%; }
+	to { transform: rotate(360deg);transform-origin: 26% 67%; }
+}
 
 
+.content .bg4 {
+	background-image: url(../images/campus/bg5.jpg);
+}
+
+.part5 .wrap .first {
+	float: right;
+	width: 272px;
+	height: 122px;
+	color: #0080ba;
+	font-size: 18px;
+	margin-top: 204px;
+}
+
+.part5 .wrap .first .p1 {
+	font-size: 40px;
+}
+
+.part5 .wrap .first .p2,.part5 .wrap .first .p3 {
+	line-height: 26px;
+}
+
+.part5 .wrap .second {
+	float: left;
+	width: 400px;
+	height: 397px;
+	margin-top: 66.5px;
+}
+
+.part5 .wrap .second .p5-img {
+	width: 100%;
+	height: 100%;
+}
+
+.part5 .wrap .second .p5-img img {
+	display: block;
+	width: 100%;
+	height: auto;
+	animation: myaround 20s linear infinite;
+}
+
+@keyframes myaround {
+	from{transform:rotate(0deg) translate(0,0);}
+	to{transform:rotate(360deg) translate(0,0);}
+}
+
+.content .bg5 {
+	background-image: url(../images/campus/bg6.jpg);
+}
+
+.part6 .wrap .first {
+	float: left;
+	width: 214px;
+	height: 160px;
+	color: #0080ba;
+	font-size: 18px;
+	margin-top: 185px;
+}
+
+.part6 .wrap .first .p1 {
+	font-size: 40px;
+}
+
+.part6 .wrap .first .p2, .part6 .wrap .first .p3 {
+	line-height: 30px;
+}
+
+.part6 .wrap .first .p3 {
+	width: 100%;
+}
+
+.part6 .wrap .first .p3 ul li {
+	float: left;
+	text-align: center;
+	margin: 0 8px;
+}
+
+.part6 .wrap .first .p3 ul li:first-child {
+	margin-left: 0;
+}
+
+.part6 .wrap .first .p3 ul li img {
+	display: block;
+}
 
 
+.part6 .second  {
+	float: right;
+	width: 668px;
+	height: 360px;
+	margin-top: 85px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.part6 .second img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 
 
 
