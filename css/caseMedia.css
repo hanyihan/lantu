@@ -1,0 +1,171 @@
+@media all and (max-width: 1200px) and (min-width: 900px) {
+	.top {
+		height: 516px;
+		margin-top: 106px;
+	}
+
+	.top .t-main {
+		width: 400px;
+		height: 115px;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.container .c-top {
+		background: url(../images/case/line.png) no-repeat center bottom;
+	}
+}
+
+@media all and (max-width: 900px) and (min-width: 600px) {
+	.top {
+		height: 400px;
+		margin-top: 106px;
+	}
+
+	.top .t-main {
+		width: 275px;
+		height: 90px;
+	}
+
+	.container .c-top {
+		width: 376px;
+	}
+
+}
+
+@media all and (max-width: 600px) {
+	.top {
+		height: 210px;
+		margin-top: 106px;
+	}
+
+	.top .t-main {
+		width: 155px;
+		height: 60px;
+		left: 5px;
+	}
+
+	.container .c-top img {
+		width: 100%;
+	}
+	.container .c-main {
+		font-size: 12px;
+	}
+
+	.container .c-main .title {
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.container .title {
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.container .c-main .img {
+		width: 100%;
+		height: auto;
+		padding: 0;
+		margin: 20px 0  30px 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
