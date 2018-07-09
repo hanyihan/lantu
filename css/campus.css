@@ -6,6 +6,7 @@
 	position: relative;
 	background: url(../images/campus/bg1.jpg) center center/cover;
 	color: #fff;
+	height: 572px;
 }
 
 .part1 .title {
@@ -167,7 +168,7 @@
 }
 
 .part3 .wrap .second ul li {
-	display: none;
+	/*display: none;*/
 	position: absolute;
 	top: 0;
 	left: 0;
