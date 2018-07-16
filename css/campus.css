@@ -168,7 +168,7 @@
 }
 
 .part3 .wrap .second ul li {
-	/*display: none;*/
+	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -178,7 +178,7 @@
 	background-size: 100% auto;
 }
 
-.part3 .wrap .second ul li.li {
+.part3 .wrap .second ul li.l1 {
 	display: block;
 	background-position: 0 0;
 }
